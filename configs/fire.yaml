@@ -1,0 +1,10 @@
+# YOLO 数据集配置
+# path 会在训练前被自动替换成绝对路径（见 scripts/train_yolo.py），这里写相对路径即可
+path: datasets/fire
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: fire
+  1: smoke

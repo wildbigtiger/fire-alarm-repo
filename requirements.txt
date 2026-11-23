@@ -1,0 +1,11 @@
+# 依赖（不含 torch / torchvision：ModelArts 的 PyTorch 镜像已自带，
+# 自己再装一遍容易把 CUDA 版本弄坏）
+ultralytics>=8.3.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+PyYAML>=6.0
+tqdm>=4.66.0
+
+# 自动标注 / 开放域模型对比（子任务 2、4 才需要）
+# 装的时候单独来：pip install -r requirements-autolabel.txt
